@@ -1,0 +1,26 @@
+﻿@model WebApplication6.Models.User
+
+<h1 class="h1">LOGOWANIE</h1>
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+<div class="register">
+    <h2 class="h2">NIE MASZ JESZCZE KONTA?</h2>
+    <p>
+        Jeżeli jesteś nowym Klientem i nie robiłeś u nas zakupów,<br />
+        zarejestruj się. Otrzymasz dostęp do historii zamówień, licznych<br />
+        promocji i zniżek, a Twoje dane adresowe zostaną zapamiętane.
+    </p>
+    <input class="buttons" type="submit" value="Zarejestruj" />
+</div>
+        <div class="login">
+            <h2>JESTEŚ NASZYM KLIENTEM, ZALOGUJ SIĘ</h2>
+            <form action="">
+                Login*: @Html.TextBoxFor(c => Model.Login)<br>
+                Hasło:*: @Html.PasswordFor(c => Model.Password)<br>
+                <a href="">Nie pamiętam hasła</a><br>
+             <input class="buttons" type="submit" value="Zaloguj"/>
+            </form>
+            <p>Wymagane pola są oznaczone gwiazdką *</p>
+        </div>
+        <div style="clear:both"></div>
+ }

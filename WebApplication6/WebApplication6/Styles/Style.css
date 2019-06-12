@@ -1,0 +1,153 @@
+﻿body {
+    width: 100%;
+    background-color: #dae1ed;
+    margin: 0;
+}
+.header-img {
+    width: 100%;
+    height: 200px;
+}
+.header {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+   
+}
+.nav {
+    padding-top:10px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: #5f97ef;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.nav-buton {
+    text-decoration:none;
+    float:left;
+    color: white;
+    padding: 8px 16px;
+    font-size:18px;
+    width:150px;
+    border-right:dotted 2px white;
+    
+}
+.nav-buton:first-child {
+     border-left: dotted 2px white;
+}
+.nav-buton a{
+    text-decoration: none;
+    color:white;
+}
+.nav-buton :hover {
+    color: yellow;
+}
+footer {
+text-align:center;
+font-size:18px;
+color:black;
+}
+.home-article {
+    
+    text-align: center;
+}
+.home-1left-div {
+    float: left;
+    background-color: #0b8e37;
+    width: 500px;
+    height: 300px;
+}
+    .home-1left-div:hover {
+        background-color: #2ce068;
+    }
+.home-2right-div {
+    float: left;
+    background-color: #0b8e37;
+    width: 500px;
+    height: 300px;
+}
+    .home-2right-div:hover {
+        background-color: #2ce068;
+    }
+.home-2left-div {
+    float: left;
+    background-color: #0b8e37;
+    width: 500px;
+    height: 300px;
+}
+    .home-2left-div:hover {
+        background-color: #2ce068;
+    }
+
+.home-1right-div {
+    float: left;
+    background-color: #0b8e37;
+    width: 500px;
+    height: 300px;
+}
+    .home-1right-div:hover {
+        background-color: #2ce068;
+    }
+.container-body-content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.img-home {
+    padding-top:18%;
+width:150px;
+height:100px;
+}
+.book-img {
+width:70px;
+height:70px;
+float:left;
+}
+.book-conteiner {
+border-bottom:dotted 5px black;
+padding-top:5px;
+min-height:300px;
+}
+.register {
+    border: 2px solid yellow;
+    width: 480px;
+    float: left;
+    text-align: center;
+}
+
+.login {
+    border: 2px solid yellow;
+    float: left;
+    width: 480px;
+    text-align: center;
+}
+
+.h1 {
+    margin-left: 40%;
+}
+
+.register-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2 {
+    font-size: medium;
+    color: darkslateblue;
+}
+
+.buttons {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+}
+

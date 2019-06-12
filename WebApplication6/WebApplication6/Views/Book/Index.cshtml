@@ -1,0 +1,25 @@
+﻿@model WebApplication6.Models.Book
+
+<h1>Oferta książek</h1>
+
+
+@foreach (var book in ViewBag.Books)
+{
+
+ <div class="book-conteiner">
+        <h2>@book.Title</h2>
+        <hr />
+        <table>
+            <td style="padding-right:10px;"><img style="float:left" src="~/Img/Book/@book.Path" width="150" ; height="150" /></td>
+            <td>
+                <h3>@book.Author</h3>
+                <h4>@book.Price</h4>
+                <h5>@book.Year</h5>
+                <h6 style="font-size:12px;">@book.Description</h6>
+            </td>
+            <td>
+                <img src="~/Img/Book/koszyk.png" width="60" height="60"/>
+            </td>
+    </table>
+ </div>
+}
